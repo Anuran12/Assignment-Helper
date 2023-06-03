@@ -1,8 +1,14 @@
 import React from 'react'
+import QBox from './QBox'
+import './css/Qfeed.css'
+import Post from './Post'
 
 function Qfeed() {
   return (
-    <div>Qfeed</div>
+    <div className='feed'>
+        <QBox />
+        <Post />
+    </div>
   )
 }
 
