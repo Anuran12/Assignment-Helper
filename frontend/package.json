@@ -20,6 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm -f install @material-ui/core @material-ui/icons",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
