@@ -1,5 +1,5 @@
 {
-    "virson": 2,
+    "version": 2,
     "use": [
         {
             "sec": "*.js",
