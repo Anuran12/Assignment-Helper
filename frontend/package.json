@@ -2,7 +2,7 @@
   "name": "assignment-helper",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:80",
+  "proxy": "https://assignment-helper-frontend-demo-1-iicp9gu3v-anuran12.vercel.app/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
