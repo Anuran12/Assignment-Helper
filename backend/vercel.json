@@ -1,0 +1,15 @@
+{
+    "virson": 2,
+    "use": [
+        {
+            "sec": "*.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/{.*}",
+            "dest": "/"
+        }
+    ]
+}
