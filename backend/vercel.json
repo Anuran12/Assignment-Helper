@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "use": [
+    "builds": [
         {
             "sec": "*.js",
             "use": "@vercel/node"
