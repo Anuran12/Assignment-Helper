@@ -84,9 +84,6 @@ function Header() {
                         <FeaturedPlayListOutlinedIcon />
                     </div>
                     <div className='qHeader__icon'>
-                    <AssignmentTurnedInOutlinedIcon />
-                    </div>
-                    <div className='qHeader__icon'>
                     <PeopleAltOutlinedIcon />
                     </div>
                     <div className='qHeader__icon'>
@@ -103,8 +100,7 @@ function Header() {
                     }}>
                     <Avatar src={user.photo} />
                     </span>
-                </div>
-                <Button onClick={() => setIsModalOpen(true)}>Add Question</Button>
+                    <Button onClick={() => setIsModalOpen(true)}>Add Question</Button>
                 <Modal
                 open = {isModalOpen}
                 closeIcon={Close}
@@ -167,6 +163,8 @@ function Header() {
                         </button>
                     </div>
                 </Modal>
+                </div>
+                
         </div>
     </div>
   )
